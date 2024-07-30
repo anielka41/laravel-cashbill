@@ -1,5 +1,5 @@
 {
-    "name": "barstec/laravel-cashbill",
+    "name": "mscode-pl/laravel-cashbill",
     "description": "Package for easily integrating cashbill payments with Laravel.",
     "keywords": ["laravel", "cashbill", "framework", "api", "package", "payments"],
     "type": "library",
@@ -8,6 +8,9 @@
     "authors": [
         {
             "name": "Bartłomiej Stec"
+        },
+        {
+            "name": "MsCode.pl"
         }
     ],
     "autoload": {
