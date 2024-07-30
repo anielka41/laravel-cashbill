@@ -1,5 +1,5 @@
 <?php
-namespace Barstec\Cashbill;
+namespace MsCode\Cashbill;
 
 use Illuminate\Support\ServiceProvider;
 
