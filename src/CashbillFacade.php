@@ -1,6 +1,6 @@
 <?php
 
-namespace Barstec\Cashbill;
+namespace MsCode\Cashbill;
 
 use Illuminate\Support\Facades\Facade;
 
