@@ -1,8 +1,8 @@
 <?php
-namespace Barstec\Cashbill;
+namespace MsCode\Cashbill;
 
-use Barstec\Cashbill\Http\Models\Transaction;
-use Barstec\Cashbill\Exceptions\CashbillException;
+use MsCode\Cashbill\Http\Models\Transaction;
+use MsCode\Cashbill\Exceptions\CashbillException;
 
 class Order extends Cashbill
 {
