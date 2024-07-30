@@ -1,5 +1,5 @@
 <?php
-use Barstec\Cashbill\Http\Controllers\CashbillNotificationController;
+use MsCode\Cashbill\Http\Controllers\CashbillNotificationController;
 
 Route::prefix('api')->group(function () {
     Route::group(['middleware' => ['api']], function () {
