@@ -10,7 +10,7 @@ return [
     | For example, for /cashbill/notification, the full path will be /api/cashbill/notification.
     |
     */
-    'notification_route' => '/cashbill/notification',
+    'notification_route' => '/cashbill/webhook',
     /*
     |--------------------------------------------------------------------------
     | Mode
