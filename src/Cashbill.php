@@ -1,7 +1,7 @@
 <?php
-namespace Barstec\Cashbill;
+namespace MsCode\Cashbill;
 
-use Barstec\Cashbill\Exceptions\CashbillException;
+use MsCode\Cashbill\Exceptions\CashbillException;
 use Illuminate\Support\Facades\Http;
 
 abstract class Cashbill
