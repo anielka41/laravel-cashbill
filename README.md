@@ -3,24 +3,18 @@
 Package for easily integrating Cashbill payments with Laravel.
 
 
-## Support
-If this package is helpful for you, you can support my work on Ko-fi.
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S6PH8KM)
-
-
 ## Installation
 
 1. Install composer package using command:
 
 ```bash
-  composer require barstec/laravel-cashbill
+  composer require mscode-pl/laravel-cashbill
 ```
 
 2. Publish configuration files to your project
 
 ```bash
-  php artisan vendor:publish --provider="Barstec\Cashbill\CashbillServiceProvider"
+  php artisan vendor:publish --provider="MsCode\Cashbill\CashbillServiceProvider"
 ```
 
 4. Run migrations
@@ -52,9 +46,9 @@ To initiate a transaction, create a **Payload** object in your controller and as
 
 namespace App\Http\Controllers;
 
-use Barstec\Cashbill\Payload;
-use Barstec\Cashbill\Payment;
-use Barstec\Cashbill\PersonalData;
+use MsCode\Cashbill\Payload;
+use MsCode\Cashbill\Payment;
+use MsCode\Cashbill\PersonalData;
 
 class CashbillExample extends Controller
 {
@@ -92,10 +86,6 @@ If you prefer to update order data manually, you can create an **Order** object 
 $order = new Order($orderId);
 $paymentDetails = $order->update();
 ```
-
-## Author
-
-[Bartłomiej Stec ](https://github.com/Bartlomiej-Stec)
 
 
 ## License
