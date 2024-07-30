@@ -1,13 +1,13 @@
 <?php
 
-namespace Barstec\Cashbill\Http\Controllers;
+namespace MsCode\Cashbill\Http\Controllers;
 
-use Barstec\Cashbill\Events\TransactionStatusChanged;
-use Barstec\Cashbill\Order;
+use MsCode\Cashbill\Events\TransactionStatusChanged;
+use MsCode\Cashbill\Order;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use Barstec\Cashbill\Http\Requests\NotificationRequest;
-use Barstec\Cashbill\Events\TransactionSuccessfullyCompleted;
+use MsCode\Cashbill\Http\Requests\NotificationRequest;
+use MsCode\Cashbill\Events\TransactionSuccessfullyCompleted;
 
 class CashbillNotificationController extends Controller
 {

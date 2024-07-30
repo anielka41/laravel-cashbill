@@ -1,8 +1,8 @@
 <?php
 
-namespace Barstec\Cashbill\Http\Models;
+namespace MsCode\Cashbill\Http\Models;
 
-use Barstec\Cashbill\PaymentDetails;
+use MsCode\Cashbill\PaymentDetails;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 

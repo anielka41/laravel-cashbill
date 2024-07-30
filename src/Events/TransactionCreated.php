@@ -1,8 +1,8 @@
 <?php
 
-namespace Barstec\Cashbill\Events;
+namespace MsCode\Cashbill\Events;
 
-use Barstec\Cashbill\Payload;
+use MsCode\Cashbill\Payload;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;

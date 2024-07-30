@@ -1,5 +1,5 @@
 <?php
-namespace Barstec\Cashbill\Exceptions;
+namespace MsCode\Cashbill\Exceptions;
 
 use Exception;
 

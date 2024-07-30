@@ -10,12 +10,14 @@
             "name": "Bartłomiej Stec"
         },
         {
-            "name": "MsCode.pl"
+            "name": "MsCode.pl",
+            "email": "kontakt@mscode.pl",
+            "homepage": "https://mscode.pl"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Barstec\\Cashbill\\": "src/"
+            "MsCode\\Cashbill\\": "src/"
         }
     },
     "require": {
@@ -24,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Barstec\\Cashbill\\CashbillServiceProvider"
+                "MsCode\\Cashbill\\CashbillServiceProvider"
             ],
             "aliases": {
-                "Cashbill": "Barstec\\Cashbill\\CashbillFacade"
+                "Cashbill": "MsCode\\Cashbill\\CashbillFacade"
             }
         }
     }

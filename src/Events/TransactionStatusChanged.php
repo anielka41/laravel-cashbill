@@ -1,6 +1,6 @@
 <?php
 
-namespace Barstec\Cashbill\Events;
+namespace MsCode\Cashbill\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;

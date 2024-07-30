@@ -1,2 +1,12 @@
 /vendor
 composer.lock
+/.idea/.gitignore
+/.idea/blade.xml
+/.idea/git_toolbox_blame.xml
+/.idea/laravel-cashbill.iml
+/.idea/laravel-idea.xml
+/.idea/laravel-idea-personal.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/vcs.xml
