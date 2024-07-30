@@ -1,8 +1,8 @@
 <?php
 
-namespace Barstec\Cashbill;
+namespace MsCode\Cashbill;
 
-use Barstec\Cashbill\PersonalData;
+use MsCode\Cashbill\PersonalData;
 use Illuminate\Support\Facades\Route;
 
 class Payload
