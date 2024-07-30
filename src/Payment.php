@@ -1,11 +1,11 @@
 <?php
 
-namespace Barstec\Cashbill;
+namespace MsCode\Cashbill;
 
-use Barstec\Cashbill\Http\Models\Transaction;
-use Barstec\Cashbill\Exceptions\CashbillException;
+use MsCode\Cashbill\Http\Models\Transaction;
+use MsCode\Cashbill\Exceptions\CashbillException;
 use Illuminate\Http\RedirectResponse;
-use Barstec\Cashbill\Events\TransactionCreated;
+use MsCode\Cashbill\Events\TransactionCreated;
 
 class Payment extends Cashbill
 {
