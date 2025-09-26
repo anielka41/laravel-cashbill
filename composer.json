@@ -1,5 +1,5 @@
 {
-    "name": "mscode-pl/laravel-cashbill",
+    "name": "anielka41/laravel-cashbill",
     "description": "Package for easily integrating cashbill payments with Laravel.",
     "keywords": ["laravel", "cashbill", "framework", "api", "package", "payments"],
     "type": "library",
@@ -21,7 +21,7 @@
         }
     },
     "require": {
-        "illuminate/support": "^10.0"
+        "illuminate/support": "^10.0 || ^11.0 || ^12.0"
     },
     "extra": {
         "laravel": {
